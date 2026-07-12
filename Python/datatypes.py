@@ -1,44 +1,132 @@
-#DataTypes - String,Number,Tuples,Lists,Dictionaries,sets,Frozenset
+# ==========================================================
+# PYTHON DATA TYPES
+# ==========================================================
 
-#Mutable - Lists,sets and Dictionaries
+"""
+Python provides different built-in data types to store data.
 
-#Immutable - String,Number,tuples and Frozenset
+Main Data Types:
+1. String
+2. Number (int, float, complex)
+3. Tuple
+4. List
+5. Dictionary
+6. Set
+7. Frozenset
+"""
 
-#DataType Declaration
+# ==========================================================
+# Mutable and Immutable Data Types
+# ==========================================================
 
- #String
-vars = "String"
-print(vars)
-print(type(vars))
+"""
+Mutable Data Types
+------------------
+These data types can be modified after creation.
 
- #Number
-varin = 22
-varfn = 12.5
-print(varin)
-print(type(varin))
-print(varfn)
-print(type(varfn))
+1. List
+2. Dictionary
+3. Set
 
- #Tuples
-vart = ("Name","Age")
-print(vart)
-print(type(vart))
- #lists
-varl = ["Name","Age"]
-print(varl)
-print(type(varl))
+Example:
+my_list = [1, 2, 3]
+my_list.append(4)    # Allowed
+"""
 
- #Dictionary
-vard = {"Name":"Viren","Age":22}
-print(vard)
-print(type(vard))
+"""
+Immutable Data Types
+--------------------
+These data types cannot be modified after creation.
 
- #Sets
-varst = {1,2,3}
-print(varst)
-print(type(varst))
+1. String
+2. Number (int, float, complex)
+3. Tuple
+4. Frozenset
 
- #Frozenset
-varfst = frozenset([1,2,3])
-print(varfst)
-print(type(varfst))
+Example:
+text = "Python"
+# text[0] = "J"      # Not Allowed
+"""
+
+# ==========================================================
+# DATA TYPE DECLARATION
+# ==========================================================
+
+# -------------------------
+# 1. String
+# -------------------------
+string_var = "Hello Python"
+
+print(string_var)
+print(type(string_var))
+
+
+# -------------------------
+# 2. Number
+# -------------------------
+
+# Integer
+int_var = 22
+
+# Float
+float_var = 12.5
+
+# Complex
+complex_var = 2 + 3j
+
+print(int_var)
+print(type(int_var))
+
+print(float_var)
+print(type(float_var))
+
+print(complex_var)
+print(type(complex_var))
+
+
+# -------------------------
+# 3. Tuple
+# -------------------------
+tuple_var = ("Name", "Age")
+
+print(tuple_var)
+print(type(tuple_var))
+
+
+# -------------------------
+# 4. List
+# -------------------------
+list_var = ["Name", "Age"]
+
+print(list_var)
+print(type(list_var))
+
+
+# -------------------------
+# 5. Dictionary
+# -------------------------
+dict_var = {
+    "Name": "Viren",
+    "Age": 22
+}
+
+print(dict_var)
+print(type(dict_var))
+
+
+# -------------------------
+# 6. Set
+# -------------------------
+set_var = {1, 2, 3}
+
+print(set_var)
+print(type(set_var))
+
+
+# -------------------------
+# 7. Frozenset
+# -------------------------
+frozenset_var = frozenset([1, 2, 3])
+
+print(frozenset_var)
+print(type(frozenset_var))
