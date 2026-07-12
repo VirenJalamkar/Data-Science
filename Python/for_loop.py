@@ -3,7 +3,13 @@ y="spiderman"
 
 for a in y:
     print(a)
+#-----------------------------------
+x=0
+c="ironman"
 
+for b in c:
+    print(b,end="")
+print()
 #-----------------------------------
 names = ["spiderman", "thor", "halk"]
 
